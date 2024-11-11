@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080000;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(1, 15, 19);
+    overflow: hidden;
+    height: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f8efef;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    grid-auto-flow: column;
+  }
+  
+  .movie-card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    transition-timing-function: cubic-bezier();
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .movie-card h3 {
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .movie-details {
+    text-align: center;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .movie-details h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .movie-details p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+  }
+
+  footer {
+    background-color: #100101; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align the text */
+    padding: 20px 0; /* Add padding around the text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, sans-serif; /* Set the font family */
+  }
+
+  footer p {
+    font-size: 18px; /* Increase the font size */
+    margin: 0; /* Remove margin around the text */
+  }
+  
